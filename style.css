@@ -1,0 +1,129 @@
+/* Aplicando reset no CSS e aplicando fonte padrão */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.12em;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background: #FEFEFE;
+  box-shadow: 4px 4px 7.68266px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  height: 470px;
+  width: 250px;
+}
+
+.card h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.7306px;
+  line-height: 36px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 69px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.card .preco {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  color: #040521;
+  text-align: center;
+}
+
+.card .preco .mes {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #484848;
+}
+
+.conteudo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.286px;
+  line-height: 20px;
+  color: #3C3C3C;
+  line-height: 35px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background: #23C281;
+  border-radius: 90px;
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;  
+  letter-spacing: 0.055em;
+  color: #FFFFFF;
+}
+
+button:active {
+  opacity: 0.8;
+  background-color: #000000;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.card img {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.card:hover img{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
